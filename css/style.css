@@ -843,6 +843,7 @@ section {
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
   border-radius: 2rem;
   position: relative;
+  height: 30vh;
 }
 
 .review .slide p {
@@ -878,9 +879,9 @@ section {
 
 .review .slide .fa-quote-right {
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   right: 3rem;
-  font-size: 6rem;
+  font-size: 3rem;
   color: var(--secondary);
 }
 
@@ -889,6 +890,7 @@ section {
   align-items: center;
   gap: 1.5rem;
   padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
   border-radius: 0.5rem;
 }
 
