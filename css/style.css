@@ -771,16 +771,21 @@ section {
   position: relative;
   overflow: hidden;
   text-align: center;
+  height: 47.5vh;
 }
 
 .staff .swiper .box-container .box .image {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 80%;
 }
 
 .staff .swiper .box-container .box .image img {
   background: var(--secondary);
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .staff .swiper .box-container .box:hover .image .share {
