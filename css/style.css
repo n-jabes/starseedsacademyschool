@@ -682,7 +682,7 @@ section {
   font-weight: 600;
 }
 
-.gallery .slide img {
+.gallery .slide img{
   height: 100%;
   width: 100%;
   border-radius: 2rem;
@@ -749,7 +749,7 @@ section {
   align-items: center;
 }
 
-.grid-wrapper img {
+.grid-wrapper img, .grid-wrapper video  {
   max-width: 100%;
   height: auto;
   border: 1px solid var(--primary-color);
